@@ -1,0 +1,21 @@
+.div1{
+  float: left;
+  width: 20%;
+    height: 300px;
+  border: 20px;
+  background: red;
+}
+.div2{
+  float :right;
+  width: 20%;
+  height: 300px;
+  border: 20px;
+  background: green;
+}
+.div3{
+  clear:both;
+  width: 60%;
+  height: 300px;
+  border: 20px;
+  background: blue;
+}

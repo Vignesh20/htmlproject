@@ -1,92 +1,194 @@
-aside{
-float: left;
-}
+@import url(https://fonts.googleapis.com/css?family=Oregano);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
 body{
-  background-image:url(http://kce.ac.in/wp-content/uploads/2014/04/b6.jpg);
-  margin: 0;
-}
-.box{
- float:right;
- align-content: flex-end;
-}
-.next{
-  clear:both;
-}
-.ems
-{
-  background-color: white;height:100;width:1066px;
- margin-top: 0px;
-}
- li{
-  display: inline;
-  padding-left: 20px;
-  margin-top: 25px;
-}
-li.course{
-  display: inline-block;
-}
-li.academy{
-  display: inline-block;
-}
-li a, .courses .academics{
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.course:hover .courses-offered {
-    display: block;
-}
-.academy:hover .college-academics {
-    display: block;
-}
-.courses-offered a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.college-academics a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.courses-offered {
-    display: none;
-    position: absolute;
-    background-color: powderblue;
-    min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.college-academics {
-    display: none;
-    position: absolute;
-    background-color: powderblue;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-family: Sans Narrow;
+  font-size: 15px;
+  margin :0;
 }
 
-ul a{
-  text-decoration: none;
-  overflow: hidden;
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
+#headerWrapper {
+position:fixed;
+margin-left: 0px;
+width: 100%;
+height: 50px;
+z-index: 1000;
+font-style: normal;
+background: #606261;
+}
+.color{
+  background: white;
 }
 
-ul li a:hover{
-  color: orange;
+.coll{
+  background: url('http://media1.santabanta.com/full1/Cars/Honda%20Cars/honda-cars-20a.jpg');
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+#footaddr{
+  float: right;
+}
+.main h2{
+  margin-top: 30px;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+.first img{
+  margin-top: 20px;
+  width:80%;
+  height:22%;
+}
+
+.second img{
+  margin-top: 20px;
+  width:70%;
+  height:22%;
+}
+
+.third img{
+  margin-top: 20px;
+  width:80%;
+  height:22%;
+}
+p2{
+  font-size: 15px;
+}
+
+h1{
+  float: left;
+  width: 60%;
+  color: black;
 }
 
 footer{
-  clear: both;
+  margin-top: -20px;
+  width: 100%;
+  background-color: white;
+  height: 45%;
 }
-img{
-  float:left;
-width: 300px;
-height: 100px;
+
+.link img{
+  width: 10%;
+  height: 30%;
+}
+ li{
+  display:inline;
+  padding-right: 0px;
+  margin-right:  0px;
+  color: black;
+
+}
+
+blockquote{
+  margin-left: 50px;
+}
+
+q{
+  position:absolute;
+  left:900;
+  top: 60;
+}
+
+#top {
+    top: 0;
+    max-width: 50%;
+    background-color: orange;
+}
+
+#bottom {
+    bottom: 0;
+    max-width: 50%
+    background-color: green;
+}
+
+aside img{
+  display: block;
+  width: 102%;
+  height: 31%;
+}
+
+.super img{
+  margin-left: -9px;
+  width:106%;
+  height:102%;
+}
+
+.photo{
+  background-color: #EDE7F6;
+}
+
+h3{
+  margin-top: 75px;
+  padding-bottom: 10px;
+}
+p1{
+  font-size: 20px;
+}
+article1{
+  float: right;
+  width: 450px;
+}
+
+h6{
+    float: left;
+    width: 60%;
+    color: red;
+  font-size: 25px;
+}
+
+.hero img{
+  float: left;
+  padding-right: 10px;
+  width: 25%;
+  height: 25%;
+}
+.cars img{
+  width: 100%;
+  height: 100%;
+}
+
+.cars {
+  position: relative;
+
+}
+.content{
+position: absolute;
+top: 100;
+left: 100;
+}
+
+.photo img{
+  width: 5%;
+  height: 5%;
+}
+
+.photo .grid_4{
+  padding-bottom: 10px;
+}
+
+article{
+  font-size: 18px;
+}
+
+.site{
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+ul a{
+  text-decoration: none;
+  color: #444;
+  font-size: 20px;
+  color: black;
+}
+
+ul a:hover{
+  color: #1ABC9C;
 }
